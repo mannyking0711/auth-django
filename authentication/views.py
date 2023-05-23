@@ -2,13 +2,34 @@ from rest_framework import status, permissions
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
-from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenViewBase
 
+from .models import CustomUser
 from .serializers import MyTokenObtainPairSerializer, CustomUserSerializer
 
 
 class ObtainTokenPairWithColorView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
+
+    def post(self, request):
+        try:
+            currentUser = CustomUser.objects.get(email=request.data['email'])
+            if request.data.get('sub') is not None:
+                request.data['password'] = request.data['sub']
+            try:
+                return super(TokenObtainPairView, self).post(request)
+            except:
+                return Response('Invalid account info', status=status.HTTP_400_BAD_REQUEST)
+        except:
+            if request.data.get('sub') is not None:
+                request.data['password'] = request.data['sub']
+                request.data['username'] = request.data['name']
+                serializer = CustomUserSerializer(data=request.data)
+                if serializer.is_valid():
+                    user = serializer.save()
+                    return super(TokenObtainPairView, self).post(request)
+            else:
+                return Response('Email does not exist, please sign up before login', status=status.HTTP_400_BAD_REQUEST)
 
 
 class CustomUserCreate(APIView):
@@ -18,11 +39,17 @@ class CustomUserCreate(APIView):
     def post(self, request, format='json'):
         serializer = CustomUserSerializer(data=request.data)
         if serializer.is_valid():
-            user = serializer.save()
-            if user:
-                json = serializer.data
-                return Response(json, status=status.HTTP_201_CREATED)
+            try:
+                currentUser = CustomUser.objects.get(email=request.data['email'])
+                if (currentUser):
+                    return Response('Email already exists', status=status.HTTP_400_BAD_REQUEST)
+            except:
+                user = serializer.save()
+                if user:
+                    json = serializer.data
+                    return Response(json, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 class CustomUserCreateWithGoogle(APIView):
     permission_classes = (permissions.AllowAny,)
@@ -33,6 +60,9 @@ class CustomUserCreateWithGoogle(APIView):
         request.data['username'] = request.data['name']
         serializer = CustomUserSerializer(data=request.data)
         if serializer.is_valid():
+            currentUser = CustomUser.objects.get(email=request.data['email'])
+            if (currentUser):
+                return Response('Email already exists', status=status.HTTP_400_BAD_REQUEST)
             user = serializer.save()
             if user:
                 json = serializer.data

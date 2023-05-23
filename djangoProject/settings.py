@@ -24,7 +24,9 @@ SECRET_KEY = 'django-insecure-h$el*3f_bpmjb--t&ea+w)zezpmgqq#!-z4r*5pru84!cv=c$_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "*"
+]
 
 # Application definition
 
@@ -35,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'sslserver',
     'authentication',
     'rest_framework',
     'corsheaders',
@@ -54,7 +58,12 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'https://localhost:5173',
     'http://192.168.0.13:5173',
+    'https://192.168.0.13:5173',
+    'https://161.97.70.0:5173',
+    'http://scanner.hacked0x90.com:5173',
+    'https://scanner.hacked0x90.com:5173',
 ]
 
 ROOT_URLCONF = 'djangoProject.urls'
@@ -155,4 +164,6 @@ SIMPLE_JWT = {
     'TOKEN_TYPE_CLAIM': 'token_type',
 }
 
-from django.db import connections
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
