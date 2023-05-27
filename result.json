@@ -1,0 +1,4455 @@
+{
+  "hosts": [
+    {
+      "name": "cmsnewui.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "Metatag CMS Detection",
+          "severity": "info",
+          "description": "Generic CMS Detection using html meta generator tag",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "XSS-Protection Header - Cross-Site Scripting",
+          "severity": "info",
+          "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "Apache Detection",
+          "severity": "info",
+          "description": "Some Apache servers have the version on the response header. The OpenSSL version can be also obtained",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "CoreBos - .htaccess File Exposure",
+          "severity": "info",
+          "description": "CoreBos was discovered to have .htaccess file exposed to public which includes sensitive information.\n",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae/htaccess.txt"
+        },
+        {
+          "name": "Joomla! htaccess file disclosure",
+          "severity": "info",
+          "description": "Joomla!  has an htaccess file to store configurations about HTTP config, directory listing, etc.",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae/htaccess.txt"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cmsnew.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae"
+        },
+        {
+          "name": "XSS-Protection Header - Cross-Site Scripting",
+          "severity": "info",
+          "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "CoreBos - .htaccess File Exposure",
+          "severity": "info",
+          "description": "CoreBos was discovered to have .htaccess file exposed to public which includes sensitive information.\n",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae/htaccess.txt"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "devcmsnew.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "Metatag CMS Detection",
+          "severity": "info",
+          "description": "Generic CMS Detection using html meta generator tag",
+          "Affected-Hosts": "https://devcmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://devcmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "devcmsnew.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "devcmsnew.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://devcmsnew.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "content.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://content.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cb.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://cb.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dtstatic.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://cmsnewui.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dtstatic.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwdtjb2.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://dpwdtjb2.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwdtjb2.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwprodes1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://dpwprodes1.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwprodes1.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwdtjb1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://dpwdtjb1.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwdtjb1.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwdt.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://dpwdt.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwdt.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "devcms.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae"
+        },
+        {
+          "name": "XSS-Protection Header - Cross-Site Scripting",
+          "severity": "info",
+          "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae/en/"
+        },
+        {
+          "name": "CoreBos - .htaccess File Exposure",
+          "severity": "info",
+          "description": "CoreBos was discovered to have .htaccess file exposed to public which includes sensitive information.\n",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae/htaccess.txt"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "devcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "Joomla! Detect",
+          "severity": "info",
+          "description": "Joomla, also spelled Joomla! (with an exclamation mark) and sometimes abbreviated as J!, is a free and open-source content management system (CMS) for publishing web content on websites.\n",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae/language/en-GB/en-GB.xml"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "devcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://devcms.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "itt.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://itt.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://itt.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "me.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://me.dubaitrade.ae"
+        },
+        {
+          "name": "ZOHO ManageEngine ServiceDesk Panel - Detect",
+          "severity": "info",
+          "description": "ZOHO ManageEngine ServiceDesk panel was detected.",
+          "Affected-Hosts": "https://me.dubaitrade.ae"
+        },
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://me.dubaitrade.ae"
+        },
+        {
+          "name": "XSS-Protection Header - Cross-Site Scripting",
+          "severity": "info",
+          "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+          "Affected-Hosts": "https://me.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ittuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://ittuat.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://ittuat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "ittuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "ittuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://ittuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2gwy.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://mirsal2gwy.dubaitrade.ae"
+        },
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://mirsal2gwy.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2gwy.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2gwy.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2gwy.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2gwy.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2gwy.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2newtrng.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://mirsal2newtrng.dubaitrade.ae"
+        },
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://mirsal2newtrng.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2newtrng.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2newtrng.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2newtrng.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2newtrng.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2newtrng.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "etoken.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://etoken.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eservicessso.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://eservicessso.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eservices.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://eservices.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "gcweb.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://eservices.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://gcweb.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eservicesdts.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://eservicesdts.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eservicesuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://eservicesuat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "eservicesuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "Test CGI Script - Detect",
+          "severity": "medium",
+          "description": "Test CGI script was detected. Response page returned by this CGI script exposes a list of server environment variables.",
+          "Affected-Hosts": "https://eservicesuat.dubaitrade.ae/cgi-bin/printenv.pl"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "eservicesuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://eservicesuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "m.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://m.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mezwdt.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://mezwdt.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "meservices.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://meservices.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sitlogin.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://cmsnew.dubaitrade.ae/en/"
+        },
+        {
+          "name": "Apache Detection",
+          "severity": "info",
+          "description": "Some Apache servers have the version on the response header. The OpenSSL version can be also obtained",
+          "Affected-Hosts": "https://sitlogin.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://sitlogin.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "sitlogin.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "sitlogin.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://sitlogin.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "neweservices.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://neweservices.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rosoom.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://rosoom.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rosoomuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://rosoomuat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "rosoomuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "rosoomuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://rosoomuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sitcms.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://sitcms.dubaitrade.ae"
+        },
+        {
+          "name": "XSS-Protection Header - Cross-Site Scripting",
+          "severity": "info",
+          "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+          "Affected-Hosts": "https://sitcms.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://sitcms.dubaitrade.ae/en/"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "sitcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "Joomla! Detect",
+          "severity": "info",
+          "description": "Joomla, also spelled Joomla! (with an exclamation mark) and sometimes abbreviated as J!, is a free and open-source content management system (CMS) for publishing web content on websites.\n",
+          "Affected-Hosts": "https://sitcms.dubaitrade.ae/language/en-GB/en-GB.xml"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "sitcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://sitcms.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "umws.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://umws.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "um.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://um.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uatjsprdt1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://uatjsprdt1.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://uatjsprdt1.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "uatjsprdt1.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "uatjsprdt1.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://uatjsprdt1.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uatjsprdt2.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://uatjsprdt1.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://uatjsprdt2.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "uatjsprdt2.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "uatjsprdt2.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://uatjsprdt2.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uatosprdt1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HttpOnly Cookie - Detect",
+          "severity": "info",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "Affected-Hosts": "https://uatosprdt1.dubaitrade.ae"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://uatosprdt1.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "uatosprdt1.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "uatosprdt1.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://uatosprdt1.dubaitrade.ae/"
+        },
+        {
+          "name": "Oracle Enterprise Manager Login Panel - Detect",
+          "severity": "info",
+          "description": "Oracle Enterprise Manager login panel was detected.",
+          "Affected-Hosts": "https://uatosprdt1.dubaitrade.ae/em/console/logon/logon"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "www.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "FingerprintHub Technology Fingerprint",
+          "severity": "info",
+          "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+          "Affected-Hosts": "https://www.dubaitrade.ae/en/"
+        },
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://www.dubaitrade.ae/en/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "NS Record Detection",
+          "severity": "info",
+          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+          "Affected-Hosts": "dubaitrade.ae"
+        },
+        {
+          "name": "Microsoft Azure Domain Tenant ID - Detect",
+          "severity": "info",
+          "description": "Microsoft Azure Domain Tenant ID was detected.",
+          "Affected-Hosts": "https://login.microsoftonline.com:443/dubaitrade.ae/v2.0/.well-known/openid-configuration"
+        },
+        {
+          "name": "DNS TXT Record Detected",
+          "severity": "info",
+          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+          "Affected-Hosts": "dubaitrade.ae"
+        },
+        {
+          "name": "Email Service Detector",
+          "severity": "info",
+          "description": "An email service was detected. Check the email service or spam filter that is used for a domain.",
+          "Affected-Hosts": "dubaitrade.ae"
+        },
+        {
+          "name": "MX Record Detection",
+          "severity": "info",
+          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+          "Affected-Hosts": "dubaitrade.ae"
+        },
+        {
+          "name": "DNS DMARC - Detect",
+          "severity": "info",
+          "description": "DNS DMARC information was detected.\n",
+          "Affected-Hosts": "dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2gwytest.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "http://mirsal2gwytest.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2gwytest.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2gwytest.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2gwytest.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2gwytest.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwdtjbp.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwdtjbp.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dcdashboard.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dcdashboard.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpwdtn1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dpwdtn1.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "apit.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://apit.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "apit.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "apit.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://apit.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dtstaticuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dtstaticuat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "dtstaticuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "dtstaticuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://dtstaticuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "apiu.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://apiu.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "apiu.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "apiu.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://apiu.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "apid.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://apid.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "apid.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "apid.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://apid.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dev.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dev.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "dev.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "dev.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://dev.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dashboard.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://dashboard.dubaitrade.ae/dtreports/auth/login"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ecustomsprd.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://ecustomsprd.dubaitrade.ae"
+        },
+        {
+          "name": "Header Based Generic OOB Interaction",
+          "severity": "info",
+          "description": "The remote server fetched a spoofed URL from the request headers.",
+          "Affected-Hosts": "https://ecustomsprd.dubaitrade.ae"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "ecustomsprd.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://ecustomsprd.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "113",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "48"
+          },
+          "service": {
+            "@name": "ident",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ecustoms.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://ecustoms.dubaitrade.ae"
+        },
+        {
+          "name": "Header Based Generic OOB Interaction",
+          "severity": "info",
+          "description": "The remote server fetched a spoofed URL from the request headers.",
+          "Affected-Hosts": "https://ecustoms.dubaitrade.ae"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "ecustoms.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://ecustoms.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "113",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "48"
+          },
+          "service": {
+            "@name": "ident",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eservicesuatsso.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://eservicesuatsso.dubaitrade.ae"
+        },
+        {
+          "name": "Oracle Access Manager - Remote Code Execution",
+          "severity": "critical",
+          "description": "The Oracle Access Manager  portion of Oracle Fusion Middleware (component: OpenSSO Agent) is vulnerable to remote code execution. Supported versions that are affected are 11.1.2.3.0, 12.2.1.3.0 and 12.2.1.4.0. This is an easily exploitable vulnerability that allows unauthenticated attackers with network access via HTTP to compromise Oracle Access Manager.\n",
+          "Affected-Hosts": "https://eservicesuatsso.dubaitrade.ae/oam/server/opensso/sessionservice"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "eservicesuatsso.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "eservicesuatsso.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://eservicesuatsso.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "logigate.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://logigate.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2aeo.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2aeo.dubaitrade.ae"
+        },
+        {
+          "name": "Header Based Generic OOB Interaction",
+          "severity": "info",
+          "description": "The remote server fetched a spoofed URL from the request headers.",
+          "Affected-Hosts": "https://mirsal2aeo.dubaitrade.ae"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2aeo.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://mirsal2aeo.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "113",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "48"
+          },
+          "service": {
+            "@name": "ident",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2gwytestb2g.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2gwytestb2g.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2gwytestb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2gwytestb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2gwytestb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2gwytestb2g.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2new.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2new.dubaitrade.ae"
+        },
+        {
+          "name": "Header Based Generic OOB Interaction",
+          "severity": "info",
+          "description": "The remote server fetched a spoofed URL from the request headers.",
+          "Affected-Hosts": "https://mirsal2new.dubaitrade.ae"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2new.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://mirsal2new.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "113",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "48"
+          },
+          "service": {
+            "@name": "ident",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2newb2g.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2newb2g.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2newb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2newb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2newb2g.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2newb2g.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2oauth.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2oauth.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2oauth.dubaitrade.ae:443"
+        },
+        {
+          "name": "Weak Cipher Suites Detection",
+          "severity": "medium",
+          "description": "A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.",
+          "Affected-Hosts": "mirsal2oauth.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2oauth.dubaitrade.ae:443"
+        },
+        {
+          "name": "Deprecated TLS Detection (TLS 1.1 or SSLv3)",
+          "severity": "info",
+          "description": "Both TLS 1.1 and SSLv3 are deprecated in favor of stronger encryption.\n",
+          "Affected-Hosts": "mirsal2oauth.dubaitrade.ae:443"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "236"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2uat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2uat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2uat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2uat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://mirsal2uat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mirsal2uataeo.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mirsal2uataeo.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "mirsal2uataeo.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "mirsal2uataeo.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://mirsal2uataeo.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mobilem2.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mobilem2.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mobilem1.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://mobilem1.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "newservicesuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://newservicesuat.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "newservicesuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "newservicesuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://newservicesuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stdata.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://stdata.dubaitrade.ae"
+        },
+        {
+          "name": "Header Based Generic OOB Interaction",
+          "severity": "info",
+          "description": "The remote server fetched a spoofed URL from the request headers.",
+          "Affected-Hosts": "https://stdata.dubaitrade.ae"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "stdata.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://stdata.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "113",
+          "state": {
+            "@state": "closed",
+            "@reason": "reset",
+            "@reason_ttl": "48"
+          },
+          "service": {
+            "@name": "ident",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tnt.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://tnt.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rosoomsit.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://rosoomsit.dubaitrade.ae/rosoomadmin/home"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "rosoomsit.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "rosoomsit.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://rosoomsit.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uatcmsnew.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://uatcmsnew.dubaitrade.ae"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "uatcmsnew.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "uatcmsnew.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://uatcmsnew.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uatcms.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://uatcms.dubaitrade.ae/en/"
+        },
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "uatcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "uatcms.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://uatcms.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "watchm2.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "HTTP Missing Security Headers",
+          "severity": "info",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "Affected-Hosts": "https://watchm2.dubaitrade.ae"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "237"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dtdev.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "dtdev.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "dtdev.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://dtdev.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "authu.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "authu.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "authu.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://authu.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dtsit.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "dtsit.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "dtsit.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://dtsit.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sitcmsnewui.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "sitcmsnewui.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "sitcmsnewui.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://sitcmsnewui.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rosoomadmindev.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "rosoomadmindev.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "rosoomadmindev.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://rosoomadmindev.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rosoomadminuat.dubaitrade.ae",
+      "vulnerabilities": [
+        {
+          "name": "Untrusted Root Certificate - Detect",
+          "severity": "low",
+          "description": "A root certificate is a digital certificate issued by a trusted certificate authority that acts as a basis for other digital certificates. An untrusted root certificate is a certificate that is issued by an authority that is not trusted by the computer, and therefore cannot be used to authenticate websites or other digital certificates.\n",
+          "Affected-Hosts": "rosoomadminuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "TLS Version - Detect",
+          "severity": "info",
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "Affected-Hosts": "rosoomadminuat.dubaitrade.ae:443"
+        },
+        {
+          "name": "WAF Detection",
+          "severity": "info",
+          "description": "A web application firewall was detected.",
+          "Affected-Hosts": "https://rosoomadminuat.dubaitrade.ae/"
+        }
+      ],
+      "ports": [
+        {
+          "@protocol": "tcp",
+          "@portid": "80",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "443",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "245"
+          },
+          "service": {
+            "@name": "https",
+            "@method": "table",
+            "@conf": "3"
+          }
+        },
+        {
+          "@protocol": "tcp",
+          "@portid": "8008",
+          "state": {
+            "@state": "open",
+            "@reason": "syn-ack",
+            "@reason_ttl": "56"
+          },
+          "service": {
+            "@name": "http",
+            "@method": "table",
+            "@conf": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

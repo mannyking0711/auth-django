@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer, RefreshToken
 from rest_framework import serializers
-from .models import CustomUser
+from .models import CustomUser, ScanRequest
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     username_field = User.EMAIL_FIELD
@@ -40,3 +40,10 @@ class CustomUserSerializer(serializers.ModelSerializer):
             instance.set_password(password)
         instance.save()
         return instance
+
+
+class ScanRequestSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = ScanRequest
+        exclude = ()
