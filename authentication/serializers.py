@@ -3,6 +3,7 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer, Refr
 from rest_framework import serializers
 from .models import CustomUser, ScanRequest
 
+
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     username_field = User.EMAIL_FIELD
 
@@ -43,7 +44,6 @@ class CustomUserSerializer(serializers.ModelSerializer):
 
 
 class ScanRequestSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = ScanRequest
-        exclude = ()
+        exclude = ('result',)
